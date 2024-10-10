@@ -33,7 +33,7 @@ jobs:
       - name: Passo 5
         run: echo "Executando o segundo passo"
       - name: Passo 6
-        run: echo "Executando o terceiro passo"
+        run: echo "Passo falho." | exit 1
   Trabalho3:
     name: Fluxo 3
     needs: Trabalho1
