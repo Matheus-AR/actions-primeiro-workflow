@@ -29,9 +29,9 @@ jobs:
     # Agora irei programar mais outra sequencia de passos do script
     steps:
       - name: Passo 4
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o quartp passo"
       - name: Passo 5
-        run: echo "Executando o segundo passo"
+        run: echo "Executando o quinto passo"
       - name: Passo 6
         run: echo "Passo falho." | exit 1
   Trabalho3:
@@ -41,10 +41,10 @@ jobs:
     # Agora irei programar mais outra sequencia de passos do script
     steps:
       - name: Passo 7
-        run: echo "Executando o primeiro passo"
+        run: echo "Executando o sétimo passo"
       - name: Passo 8
-        run: echo "Executando o segundo passo"
+        run: echo "Executando o oitavo passo"
       - name: Passo 9
-        run: echo "Executando o terceiro passo"
+        run: echo "Executando o nono passo"
 
         
